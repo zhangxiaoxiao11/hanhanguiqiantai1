@@ -1,0 +1,13 @@
+
+<view class="title">
+  <!-- 电话弹框 -->
+  <view bindtap="showtip">服务</view>
+  <!-- 电话logo -->
+  <navigator class="logo">
+    <image class="logo_img" src="../../images/dianhua.jpg"></image>
+  </navigator>
+</view>
+
+
+
+<text style="color:#3b3b3b;text-decoration:underline;" decode="{{true}}">{{msg}}</text>

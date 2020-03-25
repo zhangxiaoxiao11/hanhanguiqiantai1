@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/dianhuatankuan01/dianhuatankuan01"
+    ],
+    "window": {
+        "backgroudColor": "#F6F6F6",
+        "backgroundTextStyle": "dark",
+        "navigationBarBackgroundColor": "#eb637e",
+        "navigationBarTitleText": "跳跳市场",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh":true
+    },
+    "tabBar": {
+        "color":"#000",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "主页",
+            "iconPath": "images/1.jpg",
+            "selectedIconPath": "images/2.jpg"
+        }, {
+            "pagePath": "pages/logs/logs",
+            "text": "我的",
+            "iconPath": "images/3.jpg",
+            "selectedIconPath": "images/4.jpg"
+        }]
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
